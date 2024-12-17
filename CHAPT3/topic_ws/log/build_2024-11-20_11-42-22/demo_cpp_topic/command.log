@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros2/CHAPT3/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic
+Invoked command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros2/CHAPT3/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic
+Invoking command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic -- -j2 -l2
+Invoked command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic -- -j2 -l2
+Invoking command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic
+Invoked command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic

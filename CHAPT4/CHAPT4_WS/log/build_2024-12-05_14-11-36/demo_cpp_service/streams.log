@@ -1,0 +1,23 @@
+[0.083s] Invoking command in '/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service -- -j2 -l2
+[0.552s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.708s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.402s] -- Found chapt4_interfaces: 0.0.0 (/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[1.873s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.001s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.703s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.520s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.799s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.825s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.179s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[4.376s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[4.376s]   ament_target_dependencies() the passed package name 'turtle_contorl' was
+[4.377s]   not found before
+[4.377s] Call Stack (most recent call first):
+[4.377s]   CMakeLists.txt:28 (ament_target_dependencies)
+[4.378s] 
+[4.378s] 
+[4.380s] -- Configuring incomplete, errors occurred!
+[4.381s] See also "/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service/CMakeFiles/CMakeOutput.log".
+[4.381s] See also "/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service/CMakeFiles/CMakeError.log".
+[4.415s] make: *** [Makefile:266：cmake_check_build_system] 错误 1
+[4.419s] Invoked command in '/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service' returned '2': AMENT_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service -- -j2 -l2

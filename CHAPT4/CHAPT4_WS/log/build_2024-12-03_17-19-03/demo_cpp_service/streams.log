@@ -1,0 +1,57 @@
+[0.555s] Invoking command in '/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/CHAPT4/CHAPT4_WS/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service
+[0.898s] -- The C compiler identification is GNU 9.4.0
+[2.979s] -- The CXX compiler identification is GNU 9.4.0
+[3.075s] -- Check for working C compiler: /usr/bin/cc
+[3.169s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.242s] -- Detecting C compiler ABI info
+[3.453s] -- Detecting C compiler ABI info - done
+[3.480s] -- Detecting C compile features
+[3.501s] -- Detecting C compile features - done
+[3.509s] -- Check for working CXX compiler: /usr/bin/c++
+[3.664s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.664s] -- Detecting CXX compiler ABI info
+[3.848s] -- Detecting CXX compiler ABI info - done
+[3.859s] -- Detecting CXX compile features
+[3.860s] -- Detecting CXX compile features - done
+[3.863s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.925s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.925s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.184s] -- Found chapt4_interfaces: 0.0.0 (/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[4.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.277s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.710s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[4.746s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.894s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.482s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.573s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.577s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.585s] -- Looking for pthread.h
+[5.812s] -- Looking for pthread.h - found
+[5.812s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.050s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.050s] -- Looking for pthread_create in pthreads
+[6.237s] -- Looking for pthread_create in pthreads - not found
+[6.237s] -- Looking for pthread_create in pthread
+[6.393s] -- Looking for pthread_create in pthread - found
+[6.394s] -- Found Threads: TRUE  
+[6.596s] CMake Error at CMakeLists.txt:22 (find_package):
+[6.597s]   By not providing "Findgeomety_msg.cmake" in CMAKE_MODULE_PATH this project
+[6.597s]   has asked CMake to find a package configuration file provided by
+[6.598s]   "geomety_msg", but CMake did not find one.
+[6.598s] 
+[6.599s]   Could not find a package configuration file provided by "geomety_msg" with
+[6.599s]   any of the following names:
+[6.599s] 
+[6.600s]     geomety_msgConfig.cmake
+[6.600s]     geomety_msg-config.cmake
+[6.600s] 
+[6.603s]   Add the installation prefix of "geomety_msg" to CMAKE_PREFIX_PATH or set
+[6.603s]   "geomety_msg_DIR" to a directory containing one of the above files.  If
+[6.603s]   "geomety_msg" provides a separate development package or SDK, be sure it
+[6.603s]   has been installed.
+[6.603s] 
+[6.603s] 
+[6.606s] -- Configuring incomplete, errors occurred!
+[6.606s] See also "/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service/CMakeFiles/CMakeOutput.log".
+[6.606s] See also "/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service/CMakeFiles/CMakeError.log".
+[6.618s] Invoked command in '/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service' returned '1': AMENT_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/CHAPT4/CHAPT4_WS/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service

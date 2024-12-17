@@ -1,0 +1,17 @@
+CMake Error at CMakeLists.txt:22 (find_package):
+  By not providing "Findgeomety_msg.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "geomety_msg", but CMake did not find one.
+
+  Could not find a package configuration file provided by "geomety_msg" with
+  any of the following names:
+
+    geomety_msgConfig.cmake
+    geomety_msg-config.cmake
+
+  Add the installation prefix of "geomety_msg" to CMAKE_PREFIX_PATH or set
+  "geomety_msg_DIR" to a directory containing one of the above files.  If
+  "geomety_msg" provides a separate development package or SDK, be sure it
+  has been installed.
+
+

@@ -1,0 +1,25 @@
+[1.549s] Invoking command in '/home/ros2/CHAPT4/CHAPT4_WS/src/demo_python_service': AMENT_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces LD_LIBRARY_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages:/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/build install --record /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/install.log --install-scripts $base/lib/demo_python_service --single-version-externally-managed install_data
+[1.764s] running egg_info
+[1.764s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[1.765s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[1.765s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[1.765s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[1.766s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[1.862s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.863s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[1.863s] running build
+[1.864s] running build_py
+[1.864s] copying demo_python_service/face_detect_node.py -> /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/build/lib/demo_python_service
+[1.864s] running install
+[1.865s] running install_lib
+[1.866s] copying /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/build/lib/demo_python_service/face_detect_node.py -> /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+[1.867s] byte-compiling /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/face_detect_node.py to face_detect_node.cpython-38.pyc
+[1.869s] running install_data
+[1.869s] running install_egg_info
+[1.872s] removing '/home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages/demo_python_service-0.0.0-py3.8.egg-info' (and everything under it)
+[1.872s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages/demo_python_service-0.0.0-py3.8.egg-info
+[1.887s] running install_scripts
+[1.920s] Installing face_detect_node script to /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/demo_python_service
+[1.921s] Installing learn_face_detect script to /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/demo_python_service
+[1.922s] writing list of installed files to '/home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/install.log'
+[1.959s] Invoked command in '/home/ros2/CHAPT4/CHAPT4_WS/src/demo_python_service' returned '0': AMENT_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces LD_LIBRARY_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages:/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/build install --record /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/install.log --install-scripts $base/lib/demo_python_service --single-version-externally-managed install_data

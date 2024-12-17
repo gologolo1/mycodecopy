@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from chapt4_interfaces/srv/FaceDetector.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/Image.idl"
+
+module chapt4_interfaces {
+  module srv {
+    struct FaceDetector_Request {
+      @verbatim (language="comment", text=
+        " 输入的人脸图像")
+      sensor_msgs::msg::Image image;
+    };
+    struct FaceDetector_Response {
+      @verbatim (language="comment", text=
+        " 人脸数量")
+      int16 number;
+
+      @verbatim (language="comment", text=
+        " 处理时间")
+      float use_time;
+
+      @verbatim (language="comment", text=
+        " 每个检测到的人脸的顶端坐标")
+      sequence<int32> top;
+
+      @verbatim (language="comment", text=
+        " 每个检测到的人脸的右边坐标")
+      sequence<int32> right;
+
+      @verbatim (language="comment", text=
+        " 每个检测到的人脸的底部坐标")
+      sequence<int32> bottom;
+
+      @verbatim (language="comment", text=
+        " 每个检测到的人脸的左边坐标")
+      sequence<int32> left;
+    };
+  };
+};

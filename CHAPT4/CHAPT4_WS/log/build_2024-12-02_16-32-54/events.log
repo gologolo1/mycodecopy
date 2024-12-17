@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000682] (chapt4_interfaces) JobQueued: {'identifier': 'chapt4_interfaces', 'dependencies': OrderedDict()}
+[0.000725] (demo_python_service) JobQueued: {'identifier': 'demo_python_service', 'dependencies': OrderedDict([('chapt4_interfaces', '/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces')])}
+[0.001010] (chapt4_interfaces) JobStarted: {'identifier': 'chapt4_interfaces'}
+[0.105897] (-) TimerEvent: {}
+[0.125815] (chapt4_interfaces) JobProgress: {'identifier': 'chapt4_interfaces', 'progress': 'cmake'}
+[0.128852] (chapt4_interfaces) JobProgress: {'identifier': 'chapt4_interfaces', 'progress': 'build'}
+[0.131097] (chapt4_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces', '--', '-j2', '-l2'], 'cwd': '/home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ros2'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1612'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1440'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4405'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros2/CHAPT4/CHAPT4_WS/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:54356'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/ros2/.local/bin:/opt/ros/foxy/bin:/home/ros2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1647,unix/ubuntu:/tmp/.ICE-unix/1647'), ('INVOCATION_ID', 'bd2f48e5d40f4ad8b16e6b67387e1c87'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-fef801f19b.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service:/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'Unity'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages:/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:/home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service:/opt/ros/foxy')]), 'shell': False}
+[0.173718] (chapt4_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.196595] (chapt4_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.197232] (chapt4_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.205599] (-) TimerEvent: {}
+[0.306611] (-) TimerEvent: {}
+[0.402681] (chapt4_interfaces) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.406867] (-) TimerEvent: {}
+[0.427108] (chapt4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.430595] (chapt4_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.507227] (-) TimerEvent: {}
+[0.538007] (chapt4_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.607499] (-) TimerEvent: {}
+[0.697440] (chapt4_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.707669] (-) TimerEvent: {}
+[0.729487] (chapt4_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.808368] (-) TimerEvent: {}
+[0.909266] (-) TimerEvent: {}
+[0.934262] (chapt4_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[0.934453] (chapt4_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.934518] (chapt4_interfaces) StderrLine: {'line': b'  chapt4_interfaces --arguments-file\n'}
+[0.934575] (chapt4_interfaces) StderrLine: {'line': b'  /home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces/rosidl_adapter__arguments__chapt4_interfaces.json\n'}
+[0.934656] (chapt4_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.934713] (chapt4_interfaces) StderrLine: {'line': b'  /home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces\n'}
+[0.934774] (chapt4_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.934827] (chapt4_interfaces) StderrLine: {'line': b'  /home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces/rosidl_adapter/chapt4_interfaces.idls)\n'}
+[0.934880] (chapt4_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.934932] (chapt4_interfaces) StderrLine: {'line': b'\n'}
+[0.935010] (chapt4_interfaces) StderrLine: {'line': b"  Error processing 'int result' of 'chapt4_interfaces/Partol_Response':\n"}
+[0.935064] (chapt4_interfaces) StderrLine: {'line': b"  ''int' is an invalid message name.  It should have the pattern\n"}
+[0.935142] (chapt4_interfaces) StderrLine: {'line': b"  '^[A-Z][A-Za-z0-9]*$''\n"}
+[0.935194] (chapt4_interfaces) StderrLine: {'line': b'\n'}
+[0.935245] (chapt4_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.935310] (chapt4_interfaces) StderrLine: {'line': b'\n'}
+[0.935376] (chapt4_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[0.935429] (chapt4_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.935480] (chapt4_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[0.935532] (chapt4_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.935583] (chapt4_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.935635] (chapt4_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.935713] (chapt4_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.935765] (chapt4_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.935816] (chapt4_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl\n'}
+[0.935867] (chapt4_interfaces) StderrLine: {'line': b'      return convert_srv_to_idl(\n'}
+[1.007262] (chapt4_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl\n'}
+[1.008076] (chapt4_interfaces) StderrLine: {'line': b'      srv = parse_service_string(package_name, input_file.stem, content)\n'}
+[1.008225] (chapt4_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 856, in parse_service_string\n'}
+[1.008329] (chapt4_interfaces) StderrLine: {'line': b'      response_message = parse_message_string(\n'}
+[1.008476] (chapt4_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string\n'}
+[1.008672] (chapt4_interfaces) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[1.008778] (chapt4_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__\n'}
+[1.008872] (chapt4_interfaces) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[1.008966] (chapt4_interfaces) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[1.009101] (chapt4_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.009204] (chapt4_interfaces) StderrLine: {'line': b'\n'}
+[1.009292] (-) TimerEvent: {}
+[1.009445] (chapt4_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message\n"}
+[1.009587] (chapt4_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.009824] (chapt4_interfaces) StderrLine: {'line': b'\n'}
+[1.009926] (chapt4_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.010021] (chapt4_interfaces) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.010127] (chapt4_interfaces) StderrLine: {'line': b'  CMakeLists.txt:24 (rosidl_generate_interfaces)\n'}
+[1.010221] (chapt4_interfaces) StderrLine: {'line': b'\n'}
+[1.010336] (chapt4_interfaces) StderrLine: {'line': b'\n'}
+[1.010453] (chapt4_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.010665] (chapt4_interfaces) StdoutLine: {'line': b'See also "/home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.016890] (chapt4_interfaces) StderrLine: {'line': b'make: *** [Makefile:748\xef\xbc\x9acmake_check_build_system] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[1.022826] (chapt4_interfaces) CommandEnded: {'returncode': 2}
+[1.103767] (chapt4_interfaces) JobEnded: {'identifier': 'chapt4_interfaces', 'rc': 2}
+[1.109594] (-) TimerEvent: {}
+[1.114748] (demo_python_service) JobSkipped: {'identifier': 'demo_python_service'}
+[1.114801] (-) EventReactorShutdown: {}

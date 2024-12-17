@@ -1,0 +1,31 @@
+[0.032s] Invoking command in '/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/CHAPT4/CHAPT4_WS/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service
+[0.114s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.184s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.584s] -- Found chapt4_interfaces: 0.0.0 (/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.613s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.619s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.881s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.490s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.548s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.554s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.770s] CMake Error at CMakeLists.txt:22 (find_package):
+[1.771s]   By not providing "Findgeomety_msg.cmake" in CMAKE_MODULE_PATH this project
+[1.772s]   has asked CMake to find a package configuration file provided by
+[1.772s]   "geomety_msg", but CMake did not find one.
+[1.772s] 
+[1.773s]   Could not find a package configuration file provided by "geomety_msg" with
+[1.773s]   any of the following names:
+[1.773s] 
+[1.773s]     geomety_msgConfig.cmake
+[1.773s]     geomety_msg-config.cmake
+[1.773s] 
+[1.773s]   Add the installation prefix of "geomety_msg" to CMAKE_PREFIX_PATH or set
+[1.773s]   "geomety_msg_DIR" to a directory containing one of the above files.  If
+[1.773s]   "geomety_msg" provides a separate development package or SDK, be sure it
+[1.773s]   has been installed.
+[1.773s] 
+[1.773s] 
+[1.777s] -- Configuring incomplete, errors occurred!
+[1.777s] See also "/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service/CMakeFiles/CMakeOutput.log".
+[1.777s] See also "/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service/CMakeFiles/CMakeError.log".
+[1.795s] Invoked command in '/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service' returned '1': AMENT_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/CHAPT4/CHAPT4_WS/src/demo_cpp_service -DCMAKE_INSTALL_PREFIX=/home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service

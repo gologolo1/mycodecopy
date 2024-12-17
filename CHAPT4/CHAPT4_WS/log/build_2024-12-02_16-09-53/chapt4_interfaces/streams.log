@@ -1,0 +1,122 @@
+[0.112s] Invoking command in '/home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces -- -j2 -l2
+[0.865s] [  3%] Built target chapt4_interfaces__cpp
+[1.004s] [ 12%] Built target chapt4_interfaces__rosidl_generator_c
+[1.011s] [ 22%] Built target chapt4_interfaces__rosidl_typesupport_introspection_cpp
+[1.049s] [ 32%] Built target chapt4_interfaces__rosidl_typesupport_c
+[1.191s] [ 41%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.210s] [ 51%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c
+[1.236s] [ 61%] Built target chapt4_interfaces__rosidl_typesupport_cpp
+[1.243s] [ 70%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c
+[1.265s] [ 70%] Built target chapt4_interfaces
+[1.309s] [ 74%] Built target chapt4_interfaces__py
+[1.491s] [ 80%] Built target chapt4_interfaces__python
+[1.534s] [ 87%] Built target chapt4_interfaces__rosidl_typesupport_c__pyext
+[1.543s] [ 93%] Built target chapt4_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.597s] [100%] Built target chapt4_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.614s] Invoked command in '/home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces -- -j2 -l2
+[1.676s] Invoking command in '/home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces
+[1.688s] -- Install configuration: ""
+[1.690s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/ament_index/resource_index/rosidl_interfaces/chapt4_interfaces
+[1.690s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces
+[1.691s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv
+[1.692s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/face_detector.h
+[1.693s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail
+[1.695s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__struct.h
+[1.696s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__type_support.h
+[1.697s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__functions.h
+[1.698s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__functions.c
+[1.700s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/msg
+[1.706s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.706s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.sh
+[1.707s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/environment/library_path.dsv
+[1.714s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_generator_c.so
+[1.714s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces
+[1.714s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv
+[1.715s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail
+[1.715s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_c.h
+[1.715s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/msg
+[1.715s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.717s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.718s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces
+[1.718s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv
+[1.718s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail
+[1.718s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_fastrtps_cpp.hpp
+[1.718s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/dds_fastrtps
+[1.719s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/msg
+[1.719s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.805s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.806s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces
+[1.806s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv
+[1.806s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail
+[1.806s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_c.h
+[1.806s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__type_support.c
+[1.807s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/msg
+[1.807s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.809s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_c.so
+[1.810s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_c.so
+[1.811s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces
+[1.811s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv
+[1.811s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/face_detector.hpp
+[1.812s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail
+[1.812s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__builder.hpp
+[1.812s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__struct.hpp
+[1.813s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__type_support.hpp
+[1.813s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__traits.hpp
+[1.813s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/msg
+[1.813s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.814s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces
+[1.814s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv
+[1.814s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail
+[1.814s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__rosidl_typesupport_introspection_cpp.hpp
+[1.814s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/include/chapt4_interfaces/srv/detail/face_detector__type_support.cpp
+[1.821s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.822s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/libchapt4_interfaces__rosidl_typesupport_cpp.so
+[1.822s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.sh
+[1.823s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/environment/pythonpath.dsv
+[1.823s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages/chapt4_interfaces/__init__.py
+[1.984s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages/chapt4_interfaces/srv
+[1.984s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages/chapt4_interfaces/srv/_face_detector_s.c
+[1.984s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages/chapt4_interfaces/srv/__init__.py
+[1.984s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages/chapt4_interfaces/srv/_face_detector.py
+[2.004s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.006s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.008s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages/chapt4_interfaces/chapt4_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.009s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/libchapt4_interfaces__python.so
+[2.009s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.idl
+[2.010s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector.srv
+[2.010s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Request.msg
+[2.010s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/srv/FaceDetector_Response.msg
+[2.010s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/ament_index/resource_index/package_run_dependencies/chapt4_interfaces
+[2.010s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/ament_index/resource_index/parent_prefix_path/chapt4_interfaces
+[2.010s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.sh
+[2.010s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/environment/ament_prefix_path.dsv
+[2.010s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.sh
+[2.010s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/environment/path.dsv
+[2.010s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.bash
+[2.010s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.sh
+[2.011s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.zsh
+[2.011s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/local_setup.dsv
+[2.011s] -- Installing: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv
+[2.011s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/ament_index/resource_index/packages/chapt4_interfaces
+[2.012s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_generator_cExport.cmake
+[2.012s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.013s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.013s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.014s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport.cmake
+[2.014s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.015s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_generator_cppExport.cmake
+[2.017s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.017s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.019s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport.cmake
+[2.019s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.019s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.019s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.019s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.020s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.020s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.020s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.020s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.020s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig.cmake
+[2.021s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake/chapt4_interfacesConfig-version.cmake
+[2.021s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/package.xml
+[2.028s] Invoked command in '/home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces

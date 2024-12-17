@@ -1,0 +1,8 @@
+[ 16%] Built target learn_lambda
+[ 33%] Built target person_node
+[ 50%] Built target learn_shared_ptr
+[ 66%] Built target learn_func
+[35m[1mScanning dependencies of target learn_thread[0m
+[ 83%] Built target cpp_node
+[ 91%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[100%] [32m[1mLinking CXX executable learn_thread[0m

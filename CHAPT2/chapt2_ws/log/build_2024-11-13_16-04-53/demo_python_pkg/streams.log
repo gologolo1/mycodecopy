@@ -1,0 +1,37 @@
+[1.972s] Invoking command in '/home/ros2/CHAPT2/chapt2_ws/src/demo_python_pkg': PYTHONPATH=/home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/build install --record /home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/install.log --install-scripts $base/lib/demo_python_pkg --single-version-externally-managed install_data
+[2.426s] running egg_info
+[2.426s] creating ../../build/demo_python_pkg/demo_python_pkg.egg-info
+[2.426s] writing ../../build/demo_python_pkg/demo_python_pkg.egg-info/PKG-INFO
+[2.426s] writing dependency_links to ../../build/demo_python_pkg/demo_python_pkg.egg-info/dependency_links.txt
+[2.426s] writing entry points to ../../build/demo_python_pkg/demo_python_pkg.egg-info/entry_points.txt
+[2.435s] writing requirements to ../../build/demo_python_pkg/demo_python_pkg.egg-info/requires.txt
+[2.436s] writing top-level names to ../../build/demo_python_pkg/demo_python_pkg.egg-info/top_level.txt
+[2.437s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[2.533s] reading manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[2.535s] writing manifest file '../../build/demo_python_pkg/demo_python_pkg.egg-info/SOURCES.txt'
+[2.535s] running build
+[2.535s] running build_py
+[2.535s] creating /home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/build
+[2.535s] creating /home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/build/lib
+[2.535s] creating /home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[2.535s] copying demo_python_pkg/__init__.py -> /home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[2.535s] copying demo_python_pkg/python_node.py -> /home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg
+[2.536s] running install
+[2.541s] running install_lib
+[2.542s] creating /home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/lib/python3.8/site-packages/demo_python_pkg
+[2.542s] copying /home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/__init__.py -> /home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/lib/python3.8/site-packages/demo_python_pkg
+[2.542s] copying /home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/build/lib/demo_python_pkg/python_node.py -> /home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/lib/python3.8/site-packages/demo_python_pkg
+[2.544s] byte-compiling /home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/lib/python3.8/site-packages/demo_python_pkg/__init__.py to __init__.cpython-38.pyc
+[2.544s] byte-compiling /home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/lib/python3.8/site-packages/demo_python_pkg/python_node.py to python_node.cpython-38.pyc
+[2.544s] running install_data
+[2.544s] creating /home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/share/ament_index
+[2.545s] creating /home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index
+[2.545s] creating /home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+[2.545s] copying resource/demo_python_pkg -> /home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/share/ament_index/resource_index/packages
+[2.545s] copying package.xml -> /home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/share/demo_python_pkg
+[2.545s] running install_egg_info
+[2.548s] Copying ../../build/demo_python_pkg/demo_python_pkg.egg-info to /home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/lib/python3.8/site-packages/demo_python_pkg-0.0.0-py3.8.egg-info
+[2.548s] running install_scripts
+[2.612s] Installing python_node script to /home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/lib/demo_python_pkg
+[2.612s] writing list of installed files to '/home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/install.log'
+[2.669s] Invoked command in '/home/ros2/CHAPT2/chapt2_ws/src/demo_python_pkg' returned '0': PYTHONPATH=/home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_pkg build --build-base /home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/build install --record /home/ros2/CHAPT2/chapt2_ws/build/demo_python_pkg/install.log --install-scripts $base/lib/demo_python_pkg --single-version-externally-managed install_data

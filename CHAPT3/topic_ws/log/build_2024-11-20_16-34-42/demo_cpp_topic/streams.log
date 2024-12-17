@@ -1,0 +1,28 @@
+[0.026s] Invoking command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT3/topic_ws/install/demo_python_topic:/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic -- -j2 -l2
+[0.171s] [35m[1mScanning dependencies of target turtle_contrl[0m
+[0.246s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_contrl.dir/src/turtle_contrl.cpp.o[0m
+[8.203s] [ 50%] [32m[1mLinking CXX executable turtle_contrl[0m
+[8.581s] [ 50%] Built target turtle_contrl
+[8.622s] [100%] Built target turtle_circle
+[8.658s] Invoked command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT3/topic_ws/install/demo_python_topic:/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic -- -j2 -l2
+[8.711s] Invoking command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT3/topic_ws/install/demo_python_topic:/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic
+[8.735s] -- Install configuration: ""
+[8.735s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[8.735s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_contrl
+[8.739s] -- Set runtime path of "/home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_contrl" to ""
+[8.742s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[8.742s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[8.742s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[8.742s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[8.742s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[8.742s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[8.742s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[8.743s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[8.743s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[8.743s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[8.743s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[8.743s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[8.743s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[8.743s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[8.743s] -- Up-to-date: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[8.757s] Invoked command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT3/topic_ws/install/demo_python_topic:/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic

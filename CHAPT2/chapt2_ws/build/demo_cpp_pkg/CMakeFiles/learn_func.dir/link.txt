@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/learn_func.dir/src/learn_func.cpp.o  -o learn_func 

@@ -1,0 +1,21 @@
+[0.015s] Invoking command in '/home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces -- -j2 -l2
+[0.063s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.124s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.343s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.375s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.380s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.516s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.703s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.712s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[0.840s] -- Found chapt4_interfaces: 0.0.0 (/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/share/chapt4_interfaces/cmake)
+[0.981s] CMake Error at /opt/ros/foxy/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.981s]   ament_target_dependencies() the passed package name 'rclcpp' was not found
+[0.981s]   before
+[0.981s] Call Stack (most recent call first):
+[0.981s]   CMakeLists.txt:27 (ament_target_dependencies)
+[0.981s] 
+[0.981s] 
+[0.984s] -- Configuring incomplete, errors occurred!
+[0.985s] See also "/home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces/CMakeFiles/CMakeOutput.log".
+[0.993s] make: *** [Makefile:988：cmake_check_build_system] 错误 1
+[0.995s] Invoked command in '/home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT4/CHAPT4_WS/build/chapt4_interfaces -- -j2 -l2

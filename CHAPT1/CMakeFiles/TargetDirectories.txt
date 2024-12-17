@@ -1,0 +1,3 @@
+/home/ros2/CHAPT1/CMakeFiles/rebuild_cache.dir
+/home/ros2/CHAPT1/CMakeFiles/edit_cache.dir
+/home/ros2/CHAPT1/CMakeFiles/learn_cmake.dir

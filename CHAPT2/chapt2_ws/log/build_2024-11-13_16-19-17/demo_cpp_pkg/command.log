@@ -1,0 +1,2 @@
+Invoking command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg': /usr/bin/cmake --build /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2
+Invoked command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg' returned '2': /usr/bin/cmake --build /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2

@@ -1,0 +1,28 @@
+[0.453s] Invoking command in '/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service -- -j2 -l2
+[0.680s] [35m[1mScanning dependencies of target partol_client[0m
+[0.800s] [ 25%] [32mBuilding CXX object CMakeFiles/partol_client.dir/src/partol_client.cpp.o[0m
+[0.847s] [ 75%] Built target turtle_contorl
+[8.865s] [100%] [32m[1mLinking CXX executable partol_client[0m
+[10.157s] [100%] Built target partol_client
+[10.178s] Invoked command in '/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service -- -j2 -l2
+[10.222s] Invoking command in '/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service': AMENT_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service
+[10.275s] -- Install configuration: ""
+[10.378s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/lib/demo_cpp_service/turtle_contorl
+[10.405s] -- Installing: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/lib/demo_cpp_service/partol_client
+[10.405s] -- Set runtime path of "/home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/lib/demo_cpp_service/partol_client" to ""
+[10.407s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/ament_index/resource_index/package_run_dependencies/demo_cpp_service
+[10.407s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/ament_index/resource_index/parent_prefix_path/demo_cpp_service
+[10.408s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.sh
+[10.408s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/demo_cpp_service/environment/ament_prefix_path.dsv
+[10.408s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/demo_cpp_service/environment/path.sh
+[10.408s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/demo_cpp_service/environment/path.dsv
+[10.408s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/demo_cpp_service/local_setup.bash
+[10.408s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/demo_cpp_service/local_setup.sh
+[10.408s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/demo_cpp_service/local_setup.zsh
+[10.409s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/demo_cpp_service/local_setup.dsv
+[10.409s] -- Installing: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/demo_cpp_service/package.dsv
+[10.438s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/ament_index/resource_index/packages/demo_cpp_service
+[10.442s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig.cmake
+[10.442s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/demo_cpp_service/cmake/demo_cpp_serviceConfig-version.cmake
+[10.443s] -- Up-to-date: /home/ros2/CHAPT4/CHAPT4_WS/install/demo_cpp_service/share/demo_cpp_service/package.xml
+[10.443s] Invoked command in '/home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service' returned '0': AMENT_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/install/chapt4_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/CHAPT4/CHAPT4_WS/build/demo_cpp_service

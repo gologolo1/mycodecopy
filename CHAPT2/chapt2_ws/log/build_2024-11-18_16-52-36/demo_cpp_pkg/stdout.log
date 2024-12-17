@@ -1,0 +1,6 @@
+[ 16%] Built target person_node
+[ 33%] Built target learn_lambda
+[ 50%] Built target learn_shared_ptr
+[ 66%] Built target learn_func
+[ 75%] [32m[1mLinking CXX executable learn_thread[0m
+[ 91%] Built target cpp_node

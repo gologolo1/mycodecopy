@@ -1,0 +1,199 @@
+[0.000000] (-) TimerEvent: {}
+[0.000138] (demo_cpp_pkg) JobQueued: {'identifier': 'demo_cpp_pkg', 'dependencies': OrderedDict()}
+[0.000185] (demo_python_pkg) JobQueued: {'identifier': 'demo_python_pkg', 'dependencies': OrderedDict([('demo_cpp_pkg', '/home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg')])}
+[0.000209] (demo_cpp_pkg) JobStarted: {'identifier': 'demo_cpp_pkg'}
+[0.010644] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'cmake'}
+[0.011400] (demo_cpp_pkg) JobProgress: {'identifier': 'demo_cpp_pkg', 'progress': 'build'}
+[0.012044] (demo_cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg', '--', '-j2', '-l2'], 'cwd': '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'ros2'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1582'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros2'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/ros2/CHAPT2/chapt2_ws/src'), ('TERM_PROGRAM_VERSION', '1.86.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1411'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4844'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ros2/CHAPT2/chapt2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ros2'), ('JOURNAL_STREAM', '8:50093'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ros2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/1617,unix/ubuntu:/tmp/.ICE-unix/1617'), ('INVOCATION_ID', 'd9b050ea0d6541c6b5fa10f9404836cb'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-b96e8b05d1.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg:/home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg:/opt/ros/foxy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg:/home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.045565] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.070362] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100532] (-) TimerEvent: {}
+[0.201203] (-) TimerEvent: {}
+[0.303335] (-) TimerEvent: {}
+[0.308214] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.358115] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.366562] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.407720] (-) TimerEvent: {}
+[0.504093] (demo_cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.507828] (-) TimerEvent: {}
+[0.567131] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.568870] (demo_cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.608087] (-) TimerEvent: {}
+[0.708692] (-) TimerEvent: {}
+[0.742910] (demo_cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.808862] (-) TimerEvent: {}
+[0.843141] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.855966] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.856817] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ros2/CHAPT2/chapt2_ws/src/demo_cpp_pkg/include\n'}
+[0.857037] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.866686] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.866994] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.868676] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.871932] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.874206] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.889475] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.889924] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.892538] (demo_cpp_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.896836] (demo_cpp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.909122] (-) TimerEvent: {}
+[0.927198] (demo_cpp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[1.054109] (-) TimerEvent: {}
+[1.058067] (demo_cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg\n'}
+[1.146331] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_lambda\x1b[0m\n'}
+[1.154535] (-) TimerEvent: {}
+[1.158386] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target person_node\x1b[0m\n'}
+[1.193928] (demo_cpp_pkg) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o\x1b[0m\n'}
+[1.211895] (demo_cpp_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o\x1b[0m\n'}
+[1.255210] (-) TimerEvent: {}
+[1.355844] (-) TimerEvent: {}
+[1.456354] (-) TimerEvent: {}
+[1.556788] (-) TimerEvent: {}
+[1.657339] (-) TimerEvent: {}
+[1.733481] (demo_cpp_pkg) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable learn_lambda\x1b[0m\n'}
+[1.757533] (-) TimerEvent: {}
+[1.858164] (-) TimerEvent: {}
+[1.885989] (demo_cpp_pkg) StdoutLine: {'line': b'[ 25%] Built target learn_lambda\n'}
+[1.908133] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_shared_ptr\x1b[0m\n'}
+[1.942931] (demo_cpp_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/learn_shared_ptr.dir/src/learn_shared_ptr.cpp.o\x1b[0m\n'}
+[1.958508] (-) TimerEvent: {}
+[2.059274] (-) TimerEvent: {}
+[2.160119] (-) TimerEvent: {}
+[2.260950] (-) TimerEvent: {}
+[2.361632] (-) TimerEvent: {}
+[2.462058] (-) TimerEvent: {}
+[2.562499] (-) TimerEvent: {}
+[2.663036] (demo_cpp_pkg) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable learn_shared_ptr\x1b[0m\n'}
+[2.663752] (-) TimerEvent: {}
+[2.764534] (-) TimerEvent: {}
+[2.811367] (demo_cpp_pkg) StdoutLine: {'line': b'[ 41%] Built target learn_shared_ptr\n'}
+[2.863498] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_func\x1b[0m\n'}
+[2.865003] (-) TimerEvent: {}
+[2.899595] (demo_cpp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/learn_func.dir/src/learn_func.cpp.o\x1b[0m\n'}
+[2.965465] (-) TimerEvent: {}
+[3.066368] (-) TimerEvent: {}
+[3.167090] (-) TimerEvent: {}
+[3.271365] (-) TimerEvent: {}
+[3.376395] (-) TimerEvent: {}
+[3.479491] (-) TimerEvent: {}
+[3.579871] (-) TimerEvent: {}
+[3.683474] (-) TimerEvent: {}
+[3.784402] (-) TimerEvent: {}
+[3.835412] (demo_cpp_pkg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX executable learn_func\x1b[0m\n'}
+[3.884897] (-) TimerEvent: {}
+[3.986341] (-) TimerEvent: {}
+[4.070078] (demo_cpp_pkg) StdoutLine: {'line': b'[ 58%] Built target learn_func\n'}
+[4.075596] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target cpp_node\x1b[0m\n'}
+[4.086813] (-) TimerEvent: {}
+[4.115154] (demo_cpp_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o\x1b[0m\n'}
+[4.187368] (-) TimerEvent: {}
+[4.288106] (-) TimerEvent: {}
+[4.389231] (-) TimerEvent: {}
+[4.490390] (-) TimerEvent: {}
+[4.591193] (-) TimerEvent: {}
+[4.691907] (-) TimerEvent: {}
+[4.792612] (-) TimerEvent: {}
+[4.895034] (-) TimerEvent: {}
+[4.995778] (-) TimerEvent: {}
+[5.030497] (demo_cpp_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable person_node\x1b[0m\n'}
+[5.095960] (-) TimerEvent: {}
+[5.199441] (-) TimerEvent: {}
+[5.289695] (demo_cpp_pkg) StdoutLine: {'line': b'[ 75%] Built target person_node\n'}
+[5.299727] (-) TimerEvent: {}
+[5.303331] (demo_cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target learn_thread\x1b[0m\n'}
+[5.326141] (demo_cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o\x1b[0m\n'}
+[5.400196] (-) TimerEvent: {}
+[5.501687] (-) TimerEvent: {}
+[5.606915] (-) TimerEvent: {}
+[5.708253] (-) TimerEvent: {}
+[5.809203] (-) TimerEvent: {}
+[5.910047] (-) TimerEvent: {}
+[6.011024] (-) TimerEvent: {}
+[6.111603] (-) TimerEvent: {}
+[6.212080] (-) TimerEvent: {}
+[6.312905] (-) TimerEvent: {}
+[6.413703] (-) TimerEvent: {}
+[6.514336] (-) TimerEvent: {}
+[6.615097] (-) TimerEvent: {}
+[6.716350] (-) TimerEvent: {}
+[6.817338] (-) TimerEvent: {}
+[6.919475] (-) TimerEvent: {}
+[7.023477] (-) TimerEvent: {}
+[7.133362] (-) TimerEvent: {}
+[7.235707] (-) TimerEvent: {}
+[7.337076] (-) TimerEvent: {}
+[7.440719] (-) TimerEvent: {}
+[7.552747] (-) TimerEvent: {}
+[7.653797] (-) TimerEvent: {}
+[7.755668] (-) TimerEvent: {}
+[7.856144] (-) TimerEvent: {}
+[7.957464] (-) TimerEvent: {}
+[8.060877] (-) TimerEvent: {}
+[8.161374] (-) TimerEvent: {}
+[8.275618] (-) TimerEvent: {}
+[8.376003] (-) TimerEvent: {}
+[8.462804] (demo_cpp_pkg) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable cpp_node\x1b[0m\n'}
+[8.479382] (-) TimerEvent: {}
+[8.580870] (-) TimerEvent: {}
+[8.681478] (-) TimerEvent: {}
+[8.716879] (demo_cpp_pkg) StdoutLine: {'line': b'[ 91%] Built target cpp_node\n'}
+[8.781751] (-) TimerEvent: {}
+[8.884361] (-) TimerEvent: {}
+[8.985086] (-) TimerEvent: {}
+[9.086275] (-) TimerEvent: {}
+[9.186843] (-) TimerEvent: {}
+[9.288316] (-) TimerEvent: {}
+[9.389023] (-) TimerEvent: {}
+[9.489640] (-) TimerEvent: {}
+[9.590455] (-) TimerEvent: {}
+[9.691408] (-) TimerEvent: {}
+[9.791887] (-) TimerEvent: {}
+[9.893168] (-) TimerEvent: {}
+[9.994167] (-) TimerEvent: {}
+[10.095034] (-) TimerEvent: {}
+[10.196024] (-) TimerEvent: {}
+[10.297009] (-) TimerEvent: {}
+[10.397874] (-) TimerEvent: {}
+[10.498512] (-) TimerEvent: {}
+[10.598894] (-) TimerEvent: {}
+[10.699848] (-) TimerEvent: {}
+[10.800629] (-) TimerEvent: {}
+[10.900964] (-) TimerEvent: {}
+[11.001787] (-) TimerEvent: {}
+[11.102656] (-) TimerEvent: {}
+[11.203399] (-) TimerEvent: {}
+[11.304099] (-) TimerEvent: {}
+[11.404752] (-) TimerEvent: {}
+[11.505205] (-) TimerEvent: {}
+[11.605844] (-) TimerEvent: {}
+[11.706878] (-) TimerEvent: {}
+[11.807903] (-) TimerEvent: {}
+[11.908458] (-) TimerEvent: {}
+[12.009135] (-) TimerEvent: {}
+[12.110276] (-) TimerEvent: {}
+[12.210836] (-) TimerEvent: {}
+[12.311759] (-) TimerEvent: {}
+[12.412902] (-) TimerEvent: {}
+[12.513441] (-) TimerEvent: {}
+[12.614429] (-) TimerEvent: {}
+[12.715231] (-) TimerEvent: {}
+[12.815884] (-) TimerEvent: {}
+[12.917387] (-) TimerEvent: {}
+[13.018862] (-) TimerEvent: {}
+[13.119937] (-) TimerEvent: {}
+[13.225764] (-) TimerEvent: {}
+[13.327033] (-) TimerEvent: {}
+[13.428088] (-) TimerEvent: {}
+[13.443403] (demo_cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable learn_thread\x1b[0m\n'}
+[13.529224] (-) TimerEvent: {}
+[13.631175] (-) TimerEvent: {}
+[13.695711] (demo_cpp_pkg) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `std::thread::thread<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&)>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&, void>(std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&)>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&)':\n"}
+[13.703715] (demo_cpp_pkg) StderrLine: {'line': b"learn_thread.cpp:(.text._ZNSt6threadC2IRSt5_BindIFM8DownloadFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_RKSt8functionIFvSA_SA_EEEPS2_St12_PlaceholderILi1EESJ_ILi2EESJ_ILi3EEEEJSA_SA_SF_EvEEOT_DpOT0_[_ZNSt6threadC5IRSt5_BindIFM8DownloadFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_RKSt8functionIFvSA_SA_EEEPS2_St12_PlaceholderILi1EESJ_ILi2EESJ_ILi3EEEEJSA_SA_SF_EvEEOT_DpOT0_]+0x58): undefined reference to `pthread_create'\n"}
+[13.704729] (demo_cpp_pkg) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[13.704896] (demo_cpp_pkg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/learn_thread.dir/build.make:84\xef\xbc\x9alearn_thread] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[13.705002] (demo_cpp_pkg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:277\xef\xbc\x9aCMakeFiles/learn_thread.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[13.705066] (demo_cpp_pkg) StderrLine: {'line': b'make: *** [Makefile:141\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[13.705155] (demo_cpp_pkg) CommandEnded: {'returncode': 2}
+[13.731317] (-) TimerEvent: {}
+[13.781143] (demo_cpp_pkg) JobEnded: {'identifier': 'demo_cpp_pkg', 'rc': 2}
+[13.793600] (demo_python_pkg) JobSkipped: {'identifier': 'demo_python_pkg'}
+[13.793685] (-) EventReactorShutdown: {}

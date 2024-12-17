@@ -1,0 +1,78 @@
+[0.044s] Invoking command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros2/CHAPT3/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic
+[2.578s] -- The C compiler identification is GNU 9.4.0
+[3.399s] -- The CXX compiler identification is GNU 9.4.0
+[3.462s] -- Check for working C compiler: /usr/bin/cc
+[3.784s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.800s] -- Detecting C compiler ABI info
+[3.984s] -- Detecting C compiler ABI info - done
+[4.003s] -- Detecting C compile features
+[4.029s] -- Detecting C compile features - done
+[4.052s] -- Check for working CXX compiler: /usr/bin/c++
+[4.185s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.185s] -- Detecting CXX compiler ABI info
+[4.360s] -- Detecting CXX compiler ABI info - done
+[4.375s] -- Detecting CXX compile features
+[4.377s] -- Detecting CXX compile features - done
+[4.535s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.655s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.655s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.086s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[5.336s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.391s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.801s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[5.887s] -- Found FastRTPS: /opt/ros/foxy/include  
+[6.077s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.229s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.234s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.240s] -- Looking for pthread.h
+[6.662s] -- Looking for pthread.h - found
+[6.662s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.832s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.833s] -- Looking for pthread_create in pthreads
+[6.956s] -- Looking for pthread_create in pthreads - not found
+[6.956s] -- Looking for pthread_create in pthread
+[7.041s] -- Looking for pthread_create in pthread - found
+[7.043s] -- Found Threads: TRUE  
+[7.378s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[7.470s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[7.679s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[7.847s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.849s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.849s] -- Configured cppcheck include dirs: 
+[7.849s] -- Configured cppcheck exclude dirs and/or files: 
+[7.850s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.850s] -- Configured cpplint exclude dirs and/or files: 
+[7.851s] -- Added test 'lint_cmake' to check CMake code style
+[7.852s] -- Added test 'uncrustify' to check C / C++ code style
+[7.853s] -- Configured uncrustify additional arguments: 
+[7.853s] -- Added test 'xmllint' to check XML markup files
+[7.862s] -- Configuring done
+[7.879s] -- Generating done
+[7.882s] -- Build files have been written to: /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic
+[7.900s] Invoked command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ros2/CHAPT3/topic_ws/src/demo_cpp_topic -DCMAKE_INSTALL_PREFIX=/home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic
+[7.913s] Invoking command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic -- -j2 -l2
+[7.999s] [35m[1mScanning dependencies of target turtle_circle[0m
+[8.316s] [ 50%] [32mBuilding CXX object CMakeFiles/turtle_circle.dir/src/turtle_circle.cpp.o[0m
+[12.843s] [100%] [32m[1mLinking CXX executable turtle_circle[0m
+[13.521s] [100%] Built target turtle_circle
+[13.551s] Invoked command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic -- -j2 -l2
+[13.600s] Invoking command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic
+[13.610s] -- Install configuration: ""
+[13.610s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle
+[13.611s] -- Set runtime path of "/home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/lib/demo_cpp_topic/turtle_circle" to ""
+[13.611s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/package_run_dependencies/demo_cpp_topic
+[13.612s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/parent_prefix_path/demo_cpp_topic
+[13.612s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.sh
+[13.612s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/ament_prefix_path.dsv
+[13.615s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.sh
+[13.615s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/environment/path.dsv
+[13.615s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.bash
+[13.615s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.sh
+[13.615s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.zsh
+[13.615s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/local_setup.dsv
+[13.615s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.dsv
+[13.615s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/ament_index/resource_index/packages/demo_cpp_topic
+[13.615s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig.cmake
+[13.615s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/cmake/demo_cpp_topicConfig-version.cmake
+[13.615s] -- Installing: /home/ros2/CHAPT3/topic_ws/install/demo_cpp_topic/share/demo_cpp_topic/package.xml
+[13.619s] Invoked command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic

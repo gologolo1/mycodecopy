@@ -1,0 +1,35 @@
+[0.021s] Invoking command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2
+[0.147s] [ 16%] Built target learn_lambda
+[0.210s] [ 33%] Built target person_node
+[0.227s] [ 50%] Built target learn_shared_ptr
+[0.290s] [ 66%] Built target learn_func
+[0.299s] [ 83%] Built target cpp_node
+[0.312s] [35m[1mScanning dependencies of target learn_thread[0m
+[0.325s] [ 91%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[6.944s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[7.180s] [100%] Built target learn_thread
+[7.215s] Invoked command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2
+[7.308s] Invoking command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg
+[7.325s] -- Install configuration: ""
+[7.325s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[7.326s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/person_node
+[7.326s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_shared_ptr
+[7.326s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_lambda
+[7.328s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_func
+[7.328s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/learn_thread
+[7.336s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[7.336s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[7.336s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[7.336s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[7.336s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[7.336s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[7.336s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[7.336s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[7.337s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[7.337s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[7.337s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[7.337s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[7.337s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[7.337s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[7.337s] -- Up-to-date: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[7.344s] Invoked command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT2/chapt2_ws/install/demo_python_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg

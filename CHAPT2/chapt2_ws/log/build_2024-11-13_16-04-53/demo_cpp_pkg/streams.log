@@ -1,0 +1,78 @@
+[0.033s] Invoking command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT2/install/demo_python_pkg:/opt/ros/foxy /usr/bin/cmake /home/ros2/CHAPT2/chapt2_ws/src/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg
+[0.129s] -- The C compiler identification is GNU 9.4.0
+[0.317s] -- The CXX compiler identification is GNU 9.4.0
+[0.335s] -- Check for working C compiler: /usr/bin/cc
+[0.551s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.551s] -- Detecting C compiler ABI info
+[0.860s] -- Detecting C compiler ABI info - done
+[0.887s] -- Detecting C compile features
+[0.888s] -- Detecting C compile features - done
+[0.895s] -- Check for working CXX compiler: /usr/bin/c++
+[1.171s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.172s] -- Detecting CXX compiler ABI info
+[1.351s] -- Detecting CXX compiler ABI info - done
+[1.372s] -- Detecting CXX compile features
+[1.373s] -- Detecting CXX compile features - done
+[1.380s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.418s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.418s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.892s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.048s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.063s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.259s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.343s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.521s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.684s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.694s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.701s] -- Looking for pthread.h
+[2.825s] -- Looking for pthread.h - found
+[2.826s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.992s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.992s] -- Looking for pthread_create in pthreads
+[3.131s] -- Looking for pthread_create in pthreads - not found
+[3.132s] -- Looking for pthread_create in pthread
+[3.240s] -- Looking for pthread_create in pthread - found
+[3.240s] -- Found Threads: TRUE  
+[3.478s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.593s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.601s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.604s] -- Configured cppcheck include dirs: 
+[3.604s] -- Configured cppcheck exclude dirs and/or files: 
+[3.614s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.614s] -- Configured cpplint exclude dirs and/or files: 
+[3.617s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.620s] -- Added test 'lint_cmake' to check CMake code style
+[3.623s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.631s] -- Added test 'uncrustify' to check C / C++ code style
+[3.631s] -- Configured uncrustify additional arguments: 
+[3.636s] -- Added test 'xmllint' to check XML markup files
+[3.642s] -- Configuring done
+[3.652s] -- Generating done
+[3.655s] -- Build files have been written to: /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg
+[3.675s] Invoked command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT2/install/demo_python_pkg:/opt/ros/foxy /usr/bin/cmake /home/ros2/CHAPT2/chapt2_ws/src/demo_cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg
+[3.678s] Invoking command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT2/install/demo_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2
+[3.753s] [35m[1mScanning dependencies of target cpp_node[0m
+[3.821s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[6.968s] [100%] [32m[1mLinking CXX executable cpp_node[0m
+[7.215s] [100%] Built target cpp_node
+[7.236s] Invoked command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT2/install/demo_python_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2
+[7.331s] Invoking command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT2/install/demo_python_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg
+[7.342s] -- Install configuration: ""
+[7.343s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node
+[7.343s] -- Set runtime path of "/home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/lib/demo_cpp_pkg/cpp_node" to ""
+[7.344s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/package_run_dependencies/demo_cpp_pkg
+[7.345s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/parent_prefix_path/demo_cpp_pkg
+[7.345s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.sh
+[7.346s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/ament_prefix_path.dsv
+[7.346s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.sh
+[7.347s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/environment/path.dsv
+[7.347s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.bash
+[7.348s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.sh
+[7.348s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.zsh
+[7.349s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/local_setup.dsv
+[7.349s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.dsv
+[7.353s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/ament_index/resource_index/packages/demo_cpp_pkg
+[7.354s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig.cmake
+[7.354s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/cmake/demo_cpp_pkgConfig-version.cmake
+[7.354s] -- Installing: /home/ros2/CHAPT2/chapt2_ws/install/demo_cpp_pkg/share/demo_cpp_pkg/package.xml
+[7.367s] Invoked command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT2/install/demo_python_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg

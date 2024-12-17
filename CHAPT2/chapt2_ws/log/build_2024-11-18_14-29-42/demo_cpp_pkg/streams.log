@@ -1,0 +1,55 @@
+[0.020s] Invoking command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2
+[0.078s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.112s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.351s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.399s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.404s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.567s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.639s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.643s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.825s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.903s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.912s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.913s] -- Configured cppcheck include dirs: /home/ros2/CHAPT2/chapt2_ws/src/demo_cpp_pkg/include;/home/ros2/CHAPT2/chapt2_ws/src/demo_cpp_pkg/(;/home/ros2/CHAPT2/chapt2_ws/src/demo_cpp_pkg/)
+[0.913s] -- Configured cppcheck exclude dirs and/or files: 
+[0.922s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.922s] -- Configured cpplint exclude dirs and/or files: 
+[0.924s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.927s] -- Added test 'lint_cmake' to check CMake code style
+[0.929s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.940s] -- Added test 'uncrustify' to check C / C++ code style
+[0.941s] -- Configured uncrustify additional arguments: 
+[0.943s] -- Added test 'xmllint' to check XML markup files
+[0.948s] -- Configuring done
+[1.187s] -- Generating done
+[1.190s] -- Build files have been written to: /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg
+[1.418s] [35m[1mScanning dependencies of target learn_lambda[0m
+[1.418s] [35m[1mScanning dependencies of target person_node[0m
+[1.468s] [  8%] [32mBuilding CXX object CMakeFiles/learn_lambda.dir/src/learn_lambda.cpp.o[0m
+[1.493s] [ 16%] [32mBuilding CXX object CMakeFiles/person_node.dir/src/person_node.cpp.o[0m
+[3.728s] [ 25%] [32m[1mLinking CXX executable learn_lambda[0m
+[4.003s] [ 25%] Built target learn_lambda
+[4.049s] [35m[1mScanning dependencies of target learn_shared_ptr[0m
+[4.070s] [ 33%] [32mBuilding CXX object CMakeFiles/learn_shared_ptr.dir/src/learn_shared_ptr.cpp.o[0m
+[4.745s] [ 41%] [32m[1mLinking CXX executable learn_shared_ptr[0m
+[4.968s] [ 41%] Built target learn_shared_ptr
+[5.118s] [35m[1mScanning dependencies of target learn_func[0m
+[5.133s] [ 50%] [32mBuilding CXX object CMakeFiles/learn_func.dir/src/learn_func.cpp.o[0m
+[6.059s] [ 58%] [32m[1mLinking CXX executable learn_func[0m
+[6.186s] [ 58%] Built target learn_func
+[6.241s] [35m[1mScanning dependencies of target cpp_node[0m
+[6.352s] [ 66%] [32mBuilding CXX object CMakeFiles/cpp_node.dir/src/cpp_node.cpp.o[0m
+[8.018s] [ 75%] [32m[1mLinking CXX executable person_node[0m
+[8.774s] [ 75%] Built target person_node
+[8.797s] [35m[1mScanning dependencies of target learn_thread[0m
+[8.830s] [ 83%] [32mBuilding CXX object CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o[0m
+[9.877s] [ 91%] [32m[1mLinking CXX executable cpp_node[0m
+[10.183s] [ 91%] Built target cpp_node
+[15.248s] [100%] [32m[1mLinking CXX executable learn_thread[0m
+[15.453s] /usr/bin/ld: CMakeFiles/learn_thread.dir/src/learn_thread.cpp.o: in function `std::thread::thread<std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&)>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&, void>(std::_Bind<void (Download::*(Download*, std::_Placeholder<1>, std::_Placeholder<2>, std::_Placeholder<3>))(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&)>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::function<void (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> const&)':
+[15.454s] learn_thread.cpp:(.text._ZNSt6threadC2IRSt5_BindIFM8DownloadFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_RKSt8functionIFvSA_SA_EEEPS2_St12_PlaceholderILi1EESJ_ILi2EESJ_ILi3EEEEJSA_SA_SF_EvEEOT_DpOT0_[_ZNSt6threadC5IRSt5_BindIFM8DownloadFvRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESA_RKSt8functionIFvSA_SA_EEEPS2_St12_PlaceholderILi1EESJ_ILi2EESJ_ILi3EEEEJSA_SA_SF_EvEEOT_DpOT0_]+0x58): undefined reference to `pthread_create'
+[15.454s] collect2: error: ld returned 1 exit status
+[15.457s] make[2]: *** [CMakeFiles/learn_thread.dir/build.make:84：learn_thread] 错误 1
+[15.465s] make[1]: *** [CMakeFiles/Makefile2:277：CMakeFiles/learn_thread.dir/all] 错误 2
+[15.466s] make: *** [Makefile:141：all] 错误 2
+[15.469s] Invoked command in '/home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT2/chapt2_ws/build/demo_cpp_pkg -- -j2 -l2

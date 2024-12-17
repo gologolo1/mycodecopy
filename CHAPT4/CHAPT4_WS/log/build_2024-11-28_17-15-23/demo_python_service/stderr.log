@@ -1,0 +1,5 @@
+  File "/home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/face_detect_client_node.py", line 22
+    while self.clients.wait_for_service(timeout_sec=1.0) is False
+                                                                ^
+SyntaxError: invalid syntax
+

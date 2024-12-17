@@ -1,0 +1,55 @@
+[0.061s] Invoking command in '/home/ros2/CHAPT7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ros2/CHAPT7/chapt7_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2
+[1.712s] -- The C compiler identification is GNU 9.4.0
+[2.873s] -- The CXX compiler identification is GNU 9.4.0
+[2.947s] -- Check for working C compiler: /usr/bin/cc
+[3.050s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.054s] -- Detecting C compiler ABI info
+[3.191s] -- Detecting C compiler ABI info - done
+[3.202s] -- Detecting C compile features
+[3.203s] -- Detecting C compile features - done
+[3.207s] -- Check for working CXX compiler: /usr/bin/c++
+[3.303s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.303s] -- Detecting CXX compiler ABI info
+[3.408s] -- Detecting CXX compiler ABI info - done
+[3.416s] -- Detecting CXX compile features
+[3.417s] -- Detecting CXX compile features - done
+[3.476s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.607s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.607s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.987s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.181s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.184s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.185s] -- Added test 'lint_cmake' to check CMake code style
+[4.186s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.190s] -- Added test 'xmllint' to check XML markup files
+[4.193s] -- Configuring done
+[4.195s] -- Generating done
+[4.196s] -- Build files have been written to: /home/ros2/CHAPT7/chapt7_ws/build/fishbot_navigation2
+[4.207s] Invoked command in '/home/ros2/CHAPT7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ros2/CHAPT7/chapt7_ws/src/fishbot_navigation2 -DCMAKE_INSTALL_PREFIX=/home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2
+[4.209s] Invoking command in '/home/ros2/CHAPT7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT7/chapt7_ws/build/fishbot_navigation2 -- -j2 -l2
+[4.278s] Invoked command in '/home/ros2/CHAPT7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT7/chapt7_ws/build/fishbot_navigation2 -- -j2 -l2
+[4.302s] Invoking command in '/home/ros2/CHAPT7/chapt7_ws/build/fishbot_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT7/chapt7_ws/build/fishbot_navigation2
+[4.317s] -- Install configuration: ""
+[4.318s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch
+[4.318s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/launch/navigation2.launch.py
+[4.318s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/config
+[4.318s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/config/nav2_params.yaml
+[4.319s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps
+[4.319s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.yaml
+[4.319s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/maps/room.pgm
+[4.319s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/ament_index/resource_index/package_run_dependencies/fishbot_navigation2
+[4.320s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/ament_index/resource_index/parent_prefix_path/fishbot_navigation2
+[4.320s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.sh
+[4.320s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/ament_prefix_path.dsv
+[4.321s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.sh
+[4.321s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/environment/path.dsv
+[4.321s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.bash
+[4.321s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.sh
+[4.322s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.zsh
+[4.322s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/local_setup.dsv
+[4.322s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.dsv
+[4.323s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/ament_index/resource_index/packages/fishbot_navigation2
+[4.323s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config.cmake
+[4.323s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/cmake/fishbot_navigation2Config-version.cmake
+[4.323s] -- Installing: /home/ros2/CHAPT7/chapt7_ws/install/fishbot_navigation2/share/fishbot_navigation2/package.xml
+[4.327s] Invoked command in '/home/ros2/CHAPT7/chapt7_ws/build/fishbot_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ros2/CHAPT7/chapt7_ws/build/fishbot_navigation2

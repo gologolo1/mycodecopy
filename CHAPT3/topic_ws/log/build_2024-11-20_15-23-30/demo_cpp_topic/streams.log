@@ -1,0 +1,39 @@
+[0.161s] Invoking command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT3/topic_ws/install/demo_python_topic:/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic -- -j2 -l2
+[0.874s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.927s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.330s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.532s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.554s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.809s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.813s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.012s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[2.051s] -- Found turtlesim: 1.2.6 (/opt/ros/foxy/share/turtlesim/cmake)
+[2.182s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.287s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.288s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.288s] -- Configured cppcheck include dirs: 
+[2.289s] -- Configured cppcheck exclude dirs and/or files: 
+[2.289s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.290s] -- Configured cpplint exclude dirs and/or files: 
+[2.290s] -- Added test 'lint_cmake' to check CMake code style
+[2.290s] -- Added test 'uncrustify' to check C / C++ code style
+[2.291s] -- Configured uncrustify additional arguments: 
+[2.292s] -- Added test 'xmllint' to check XML markup files
+[2.294s] -- Configuring done
+[2.295s] CMake Error at CMakeLists.txt:25 (add_executable):
+[2.295s]   Cannot find source file:
+[2.295s] 
+[2.296s]     src/turtle_contrl.cpp
+[2.296s] 
+[2.296s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[2.296s]   .hpp .hxx .in .txx
+[2.297s] 
+[2.297s] 
+[2.299s] CMake Error at CMakeLists.txt:25 (add_executable):
+[2.299s]   No SOURCES given to target: turtle_contrl
+[2.300s] 
+[2.300s] 
+[2.300s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[2.375s] make: *** [Makefile:266：cmake_check_build_system] 错误 1
+[2.380s] Invoked command in '/home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/CHAPT3/topic_ws/install/demo_python_topic:/opt/ros/foxy /usr/bin/cmake --build /home/ros2/CHAPT3/topic_ws/build/demo_cpp_topic -- -j2 -l2

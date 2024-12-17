@@ -1,0 +1,35 @@
+[0.705s] Invoking command in '/home/ros2/CHAPT4/CHAPT4_WS/src/demo_python_service': PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/build install --record /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/install.log --install-scripts $base/lib/demo_python_service --single-version-externally-managed install_data
+[0.899s] running egg_info
+[0.900s] creating ../../build/demo_python_service/demo_python_service.egg-info
+[0.900s] writing ../../build/demo_python_service/demo_python_service.egg-info/PKG-INFO
+[0.900s] writing dependency_links to ../../build/demo_python_service/demo_python_service.egg-info/dependency_links.txt
+[0.901s] writing entry points to ../../build/demo_python_service/demo_python_service.egg-info/entry_points.txt
+[0.902s] writing requirements to ../../build/demo_python_service/demo_python_service.egg-info/requires.txt
+[0.903s] writing top-level names to ../../build/demo_python_service/demo_python_service.egg-info/top_level.txt
+[0.903s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.932s] reading manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.932s] writing manifest file '../../build/demo_python_service/demo_python_service.egg-info/SOURCES.txt'
+[0.932s] running build
+[0.933s] running build_py
+[0.933s] creating /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/build
+[0.933s] creating /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/build/lib
+[0.933s] creating /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/build/lib/demo_python_service
+[0.933s] copying demo_python_service/__init__.py -> /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/build/lib/demo_python_service
+[0.933s] running install
+[0.934s] running install_lib
+[0.936s] creating /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+[0.936s] copying /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/build/lib/demo_python_service/__init__.py -> /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages/demo_python_service
+[0.936s] byte-compiling /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages/demo_python_service/__init__.py to __init__.cpython-38.pyc
+[0.938s] running install_data
+[0.938s] creating /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/share/ament_index
+[0.939s] creating /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/share/ament_index/resource_index
+[0.939s] creating /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/share/ament_index/resource_index/packages
+[0.939s] copying resource/demo_python_service -> /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/share/ament_index/resource_index/packages
+[0.939s] copying package.xml -> /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/share/demo_python_service
+[0.939s] creating /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/share/demo_python_service/resource
+[0.939s] copying resource/default.jpg -> /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/share/demo_python_service/resource
+[0.939s] running install_egg_info
+[0.941s] Copying ../../build/demo_python_service/demo_python_service.egg-info to /home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages/demo_python_service-0.0.0-py3.8.egg-info
+[0.944s] running install_scripts
+[0.971s] writing list of installed files to '/home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/install.log'
+[1.014s] Invoked command in '/home/ros2/CHAPT4/CHAPT4_WS/src/demo_python_service' returned '0': PYTHONPATH=/home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/CHAPT4/CHAPT4_WS/install/demo_python_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/build install --record /home/ros2/CHAPT4/CHAPT4_WS/build/demo_python_service/install.log --install-scripts $base/lib/demo_python_service --single-version-externally-managed install_data
